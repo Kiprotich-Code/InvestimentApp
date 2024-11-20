@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Footer Section</title>
+    <!-- Bootstrap 5 CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Footer -->
+    <footer class="bg-light text-dark pt-5 pb-3">
+        <div class="container">
+            <!-- Top Row -->
+            <div class="row text-center text-md-start align-items-center mb-4 px-md-5">
+                <!-- Payment Icons -->
+                <div class="col-12 col-md-4 mb-3 mb-md-0">
+                    <h5 class="">WE ACCEPT</h5>
+                    <div class="d-flex justify-content-center justify-content-md-start align-items-center gap-3">
+                        <img src="./images/visa.png" alt="Visa" style="width: 40px;" class="m-2">
+                        <img src="./images/master.png" alt="MasterCard" style="width: 40px;" class="m-2">
+                        <img src="./images/skrill.png" alt="Skrill" style="width: 40px;" class="m-2">
+                        <img src="./images/paypal.png" alt="Neteller" style="width: 40px;" class="m-2">
+                    </div>
+                </div>
+                <!-- Social Media -->
+                <div class="col-12 col-md-4 mb-3 mb-md-0">
+                     <h5 class="">CONNECT WITH US</h6>
+                    <div class="d-flex gap-3">
+                        <a href="#"><img src="./images/fb.png" alt="" style="width: 40px;" class="m-2"></a>
+                        <a href="#"><img src="./images/ig.avif" alt="" style="width: 40px;" class="m-2"></a>
+                        <a href="#"><img src="./images/X.png" alt="" style="width: 40px;" class="m-2"></a>
+                        <a href="#"><img src="./images/yt.png" alt="" style="width: 40px;" class="m-2"></a>
+                    </div>
+                </div>
+                <!-- App Download -->
+                <div class="col-12 col-md-4">
+                     <h5 class="">WE'RE AVAILABLE ON</h6>
+                    <div class="d-flex justify-content-center justify-content-md-start align-items-center gap-3">
+                        <img src="./images/playstore.png" alt="App Store" style="width: 100px;">
+                        <img src="./images/appstore.png" alt="Google Play" style="width: 100px;">
+                    </div>
+                </div>
+            </div>
+            <!-- Links Row -->
+            <div class="row text-center text-md-start mb-4 p-5">
+                <!-- Tell Me More -->
+                <div class="col-12 col-md-3 mb-3 mb-md-0">
+                     <h5 class="">Quick Links</h6>
+                    <ul class="list-unstyled">
+                        <li><a class="text-decoration-none text-dark" href="#contact">About Us</a></li>
+                        <li><a class="text-decoration-none text-dark" href="#">Get Started</a></li>
+                        <li><a class="text-decoration-none text-dark" href="">Learn</a></li>
+                        <li><a class="text-decoration-none text-dark" href="#testimonials">Testimonials</a></li>
+                    </ul>
+                </div>
+                <!-- I Would Like To -->
+                <div class="col-12 col-md-3 mb-3 mb-md-0">
+                    <h6 class="fw-bold">Security & Policy</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-dark text-decoration-none">Disclosures and
+                                Risk Warning</a></li>
+                        <li><a href="#" class="text-dark text-decoration-none">Customer
+                                Agreement</a></li>
+                        <li><a href="#" class="text-dark text-decoration-none">Partnerships</a>
+                        </li>
+                        <li><a href="#" class="text-dark text-decoration-none">Affiliates</a>
+                        </li>
+                        <li><a href="#" class="text-dark text-decoration-none">Investor
+                                Relations</a></li>
+                        <li><a href="#" class="text-dark text-decoration-none">Press
+                                Releases</a></li>
+                    </ul>
+                </div>
+                <!-- I Would Like to Learn About -->
+                <div class="col-12 col-sm-3">
+                    <h5 class="text-color">Newsletter</h5>
+                    <p class="small">Kindly, subscribe to our weekly Newsletter so that you can get all
+                        the
+                        updates in your email every week.</p>
+                    <form action="" method="post">
+                        <div class="d-flex flex-column">
+                            <div class="form-group">
+                                <input type="text" placeholder="Enter Email Address" class="form-control mb-3">
+                            </div>
+                            <input type="submit" class="btn btn-sm rounded btn-dark" value="Subscribe">
+                        </div>
+                    </form>
+                </div>
+                <!-- Help Section -->
+                <div class="col-12 col-md-3">
+                    <h6 class="fw-bold">Need help? <a href="#" class="text-primary">Contact us</a></h6>
+                </div>
+            </div>
+            <!-- Bottom Row -->
+            <div class="border-top pt-3 text-center d-flex flex-column flex-sm-row gap-md-5 justify-content-center">
+                <h3 class="fw-lighter small text-color"> Cashnow &copy;2017 - 2024</h3>
+                <a class="small fw-lighter text-dark text-decoration-none">Security Policy</a>
+                <a class="small fw-lighter text-dark text-decoration-none">Developers</a>
+                <a class="small fw-lighter text-dark text-decoration-none">User Agreement & Policy</a>
+                <a class="small fw-lighter text-dark text-decoration-none" href="{% url 'dashboard' %}">Admin
+                    Portal</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

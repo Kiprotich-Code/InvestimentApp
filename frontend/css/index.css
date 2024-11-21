@@ -231,6 +231,16 @@ a {
     .text-dark {
         font-size: 1.5rem; /* Adjust text size on small screens */
     }
+
+    .phone-mockup {
+      max-width: 300px; /* Width of the phone */
+      max-height: 400px;
+    }
+
+    .phone-mockup-head {
+      max-width: 300px; /* Width of the phone */
+      max-height: 300px;
+    }
 }
 
 /* PHONE MOCKUP  */
